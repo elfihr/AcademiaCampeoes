@@ -8,7 +8,7 @@ const Hero = () => {
       <h3 className='title'>Sua Aprovação é Nossa Missão!</h3>
       <p className='description'>
         Nós temos o método de ensino mais eficaz sob<br />
-         medida de acordo com sua nescessidade
+         medida de acordo com sua necessidade
       </p>
       <div className='heroContact_container'>
         <a className='heroContato description' href='https://wa.me/'>Entre em Contato</a>

@@ -185,7 +185,7 @@ export const testimonials = [
     },
     {
         img:testi02,
-        name:'Alma Cardodo',
+        name:'Alma Cardoso',
         star:'',
         description:'O curso foi fundamental para minha aprovação no vestibular. Os professores eram extremamente dedicados e sempre disponíveis para tirar dúvidas. Os simulados regulares me ajudaram a ganhar confiança e a me sentir preparado para o exame.'
     },
