@@ -1,6 +1,6 @@
 import React, { useRef, useState,useEffect } from "react";
 import '../style/Navbar.css'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.webp'
 import { menuLink } from "../helper/Helper";
 import Hamburger from "hamburger-react";
 

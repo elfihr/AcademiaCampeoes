@@ -1,19 +1,19 @@
-import math from '../assets/course/course_math.jpg'
-import portuguese from '../assets/course/couse_portuguese.jpg'
-import geograph from '../assets/course/couse_geography.jpg'
-import history from '../assets/course/couse_history.jpg'
-import physic from '../assets/course/course_physic.JPG'
-import chemist from '../assets/course/couse_chemist.jpg'
+import math from '../assets/course/course_math.webp'
+import portuguese from '../assets/course/couse_portuguese.webp'
+import geograph from '../assets/course/couse_geography.webp'
+import history from '../assets/course/couse_history.webp'
+import physic from '../assets/course/course_physic.webp'
+import chemist from '../assets/course/couse_chemist.webp'
 
-import teacher01 from '../assets/teacher/teacher01.jpg'
-import teacher02 from '../assets/teacher/teacher02.jpg'
-import teacher03 from '../assets/teacher/teacher03.jpg'
+import teacher01 from '../assets/teacher/teacher01.webp'
+import teacher02 from '../assets/teacher/teacher02.webp'
+import teacher03 from '../assets/teacher/teacher03.webp'
 
-import testi01 from '../assets/testimonials/testi01.jpg'
-import testi02 from '../assets/testimonials/testi02.jpg'
-import testi03 from '../assets/testimonials/testi03.jpg'
-import testi04 from '../assets/testimonials/testi04.jpg'
-import testi05 from '../assets/testimonials/testi05.jpg'
+import testi01 from '../assets/testimonials/testi01.webp'
+import testi02 from '../assets/testimonials/testi02.webp'
+import testi03 from '../assets/testimonials/testi03.webp'
+import testi04 from '../assets/testimonials/testi04.webp'
+import testi05 from '../assets/testimonials/testi05.webp'
 
 export const menuLink = [
     {
