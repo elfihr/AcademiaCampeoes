@@ -1,0 +1,102 @@
+.plan {
+    padding: 3rem 0;
+    background: #e6e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plan_wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+
+.plan_container {
+    width: 24rem;
+    background-color: white;
+    border-radius: 2rem 2rem 1rem 1rem;
+}
+
+.plan_container h4 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem 2rem 0 0;
+    color: white;
+    height: 5rem;
+    background-color: var(--color-main);
+}
+
+.planPrice {
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.plan_price {
+    font-size: 1.5rem;
+    color: rgb(167, 164, 164);
+}
+
+.plan_separator{
+    width: 100%;
+    border: 1px solid rgb(213, 211, 211);
+}
+
+.planCheck_Container{
+    padding: 1rem 0;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.fa-check,
+.fa-xmark{
+  margin-right: 0.5rem;
+}
+
+.fa-check{
+ color: green;
+}
+.fa-xmark{
+color: red;
+}
+
+.plan_sign{
+    margin: 1rem 0 1rem 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 1rem;
+    width: 8rem;
+    padding: 2rem 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plan_sign:hover{
+    background-color: var(--color-main);
+    transition: 0.3s;
+}
+
+@media(max-width:410px){
+    .plan_container {
+        width: 20rem;
+    }
+    .plan_sign{
+        margin: 1rem 0 1rem 6.4rem;
+    }
+    .planCheck_Container{
+        margin-left: 1rem;
+    }
+}  

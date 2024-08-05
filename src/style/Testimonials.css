@@ -1,0 +1,58 @@
+.testimonials {
+    padding: 3rem 0;
+    width: 100%;
+    flex-direction: column;
+    background: #e6e5e5;
+
+}
+
+.testimonials_wrapper {
+    margin-top: 2rem;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.testimonialsImg {
+    width: 35%;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+}
+
+
+.goldborderImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySwiper p,
+.mySwiper h4 {
+    padding: 0 2rem;
+    background-color: white;
+}
+
+.mySwiper h4 {
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.mySwiper p {
+    height: 10rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) and (min-height: 600px) {
+    .testimonialsDescription {
+        height: 50vh;
+    }
+}
+
+@media (max-width:768px) {
+    .testimonialsDescription {
+        height: auto;
+    }
+    .mySwiper p {
+        height: auto;
+
+    }
+}

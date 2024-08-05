@@ -1,0 +1,69 @@
+.hero{
+    margin-top: 4.7rem;
+    width: 100%;
+    height: 90vh;
+    background: center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero > h3{
+    color: var(--color-main);
+    text-align: center;
+}
+
+.hero > p{
+    text-align: center;
+    color: white;
+}
+
+.hero > h3,
+.hero > p,
+.heroContact_container{
+    padding: 0 1rem;
+}
+
+.heroContact_container{
+    display: flex;
+    gap:3rem;
+}
+
+.heroContato,
+.heroCurso{
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.heroContato{
+    background-color: var(--color-main);
+}
+
+.heroContato:hover{
+    background-color: black;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.heroCurso{
+    background-color:black;
+}
+.heroCurso:hover{
+    background-color:var(--color-main);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+
+@media(max-width:500px){
+    .heroContact_container{
+      flex-direction: column;
+    }
+}

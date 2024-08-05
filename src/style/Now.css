@@ -1,0 +1,43 @@
+.now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    background: center fixed no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.now h3 {
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.now_btn {
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    background-color: var(--color-main);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.now_btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+}
+
+@media (max-width:480px){
+    .now_btn {
+
+        font-size: 2rem;
+
+    }
+    
+}

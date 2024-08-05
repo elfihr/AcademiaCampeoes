@@ -1,0 +1,126 @@
+.courses {
+    background: #e6e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.course_Wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.course_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    background: white;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+
+.course_container img {
+    width: 27rem;
+    height: 20rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.course_price {
+    position: absolute;
+    background-color: var(--color-main);
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+}
+
+.course_container h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: white;
+    background-color: black;
+    width: 13rem;
+    height: 3rem;
+}
+
+.course_description {
+    padding: 0 1rem;
+    height: 8rem;
+}
+
+.course_container h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    background-color: var(--color-main);
+    color: white;
+    width: 12rem;
+    height: 3.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.course_container h3:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+
+.course_separator {
+    border: 2px solid var(--color-main);
+    margin: 1rem 0 0rem 1.4rem;
+    width: 24rem;
+}
+
+.course_info_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.course_info_container i {
+    color: var(--color-main);
+}
+
+.course_info_container{
+    font-size: 1.2rem;
+}
+
+
+@media(max-width:1364px){
+    .course_Wrapper {
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+}
+@media(max-width:918px){
+    .course_Wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media(max-width:430px){
+    .course_container {
+        width: 20rem;
+    }    
+    .course_container img {
+        width: 20rem;
+    }
+    .course_separator {
+        width: 17rem;
+    }
+}
