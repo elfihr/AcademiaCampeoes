@@ -22,4 +22,6 @@ O site com intuito de ser o mais rápido possivel compactando o máximo de conte
 ## Preview
 ![academiaCampeoes01](https://github.com/user-attachments/assets/88249e80-441a-40b6-a664-0a1e810a50d5)
 ![academiaCampeoes02](https://github.com/user-attachments/assets/a8c50dc9-9285-415e-bac2-413504718841)
+![academiaCampeoes03](https://github.com/user-attachments/assets/7a74b33c-79c5-436c-99e3-964a9e215769)
+
 
