@@ -33,9 +33,20 @@
     background-color: black;
 }
 
+@media (max-width:768px){
+    .now {
+        background: scroll;
+        padding: 3rem 0;
+    }
+    .now h3{
+        padding: 0 1rem;
+    }
+    
+}
+
 @media (max-width:480px){
     .now_btn {
-
+        height: auto;
         font-size: 2rem;
 
     }
