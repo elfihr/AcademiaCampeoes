@@ -40,7 +40,7 @@ const Footer = () => {
             <div className='separator_container'>
                 <div className='separator_footer'></div>
                 <h3 className='sub_description'>
-                    Copyright &copy; A <span className='blue'>Fihr</span> Site - Academia dos Campeões
+                    Copyright &copy; A <span className='blue'>Lue</span> Site - Academia dos Campeões
                 </h3>
             </div>
         </footer>
